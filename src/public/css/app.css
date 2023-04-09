@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.wrapper {
+  text-align: center; }
+
+.header {
+  background-color: aqua;
+  color: red; }
+
+.footer {
+  background-color: rgba(43, 41, 41, 0.699);
+  color: white; }

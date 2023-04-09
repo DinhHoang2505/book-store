@@ -1,0 +1,34 @@
+{
+  "name": "f8node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --inspect src/index.js",
+    "watch": "node-sass -w src/resources/scss -o src/public/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DinhHoang2505/f8nodejs.git"
+  },
+  "keywords": [
+    "nodejs",
+    "HoangDV"
+  ],
+  "author": "HoangDV",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DinhHoang2505/f8nodejs/issues"
+  },
+  "homepage": "https://github.com/DinhHoang2505/f8nodejs#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.4"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.22"
+  }
+}
